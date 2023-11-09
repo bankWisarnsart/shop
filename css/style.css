@@ -1,0 +1,74 @@
+body{
+	margin: 5px;
+	padding: 0;
+	font-family: serif;
+	background-color: white;
+}
+.search{
+	 
+	 
+	
+}
+.search input{
+	border: 1px solid gray;
+	border-radius: 50px;
+	outline: none;
+	font-size: 25px;
+}
+.nav{
+	position: absolute;
+	left: 74%;
+	top: 5%;
+	margin: 0px;
+	width: 500px;
+}
+.nav a{
+	border: 1px solid gray;
+	border-radius: 15px;
+	text-decoration: none;
+	background-color: white;
+	color: black;
+	padding: 20px;
+}
+.nav a:hover{
+	background-color: blue;
+	color: white;
+	font-size: 20px;
+	opacity: 0.88;
+}
+
+.nav .active{
+	background-color: blue;
+	color: white;
+}
+
+.table{
+	text-align: center;
+	border-collapse: collapse;
+}
+
+.table th{
+	font-size: 22px;
+	background-color: orange;
+	color: white;
+}
+
+.table td{
+	font-size: 150%;
+	font-variant: small-caps;
+}
+
+.buyBtn{
+	border-radius: 10px;
+	outline: none;
+	border: 1px solid gray;
+	width: 80px;
+	height: 35px;
+	font-size: 120%;
+	color: black;
+	background-color: yellow;
+}
+.buyBtn:hover{
+	opacity: 0.9;
+	cursor: pointer;
+}
